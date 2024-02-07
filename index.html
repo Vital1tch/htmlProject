@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <section>
+        <header>
+            <div>
+                <h1>Сайт сотрудников</h1>
+            </div>
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Список сотрудников</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <article>
+            <div>
+                <h3>Сотрудники</h3>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Имя</th>
+                        <th>Возраст</th>
+                        <th>Должность</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Иван</td>
+                        <td>20</td>
+                        <td>Разработчик</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Екатерина</td>
+                        <td>25</td>
+                        <td>Дизайнер</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Евгения</td>
+                        <td>19</td>
+                        <td>Фронтенд</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+    <section>
+        <div>
+            <h3>Сотрудники</h3>
+        </div>
+        <div>
+        <form menthod = "POST" action="#">
+            <div>
+                <label>
+                    <input type = "text" name = "name" placeholder="name" >
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type = "number" name = "age" placeholder="age" >
+                </label>
+            </div>
+            <div>
+                <label>
+                    <select name = "position">
+                        <option disabled selected >Выберите должность</option>
+                        <option value = "1">Разработчик</option>
+                        <option value = "2">Дизайнер</option>
+                        <option value = "3">Фронтенд</option>
+                        <option value = "4">Менеджер</option>
+                    </select>
+                </label>
+            </div>
+
+            <div>
+                <input type="submit" value = "add">
+            </div>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
